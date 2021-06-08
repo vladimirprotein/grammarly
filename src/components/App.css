@@ -269,6 +269,7 @@ img{
   padding: 60px 0;
   background: #f9faff;
   color: #0E101A;
+  text-align: center;
 }
 #statsDiv > div{
   width:100%;
@@ -287,12 +288,23 @@ img{
 }
 #statsDiv > div > div{
   width:100%;
-
+  margin-top: 80px;
 }
 
 
 .statCardDiv{
-
+  width: 100%;
+  text-align: center;
+}
+.statCardDiv > div{
+  width: 40%;
+  max-width: 150px;
+  margin: 0 auto;
+}
+.statCardDiv p{
+  font-size: 16px;
+  color: #0E101A;
+  line-height: 28px;
 }
 
 
